@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-    text-align: center
+    text-align: center;
+    background-color: #6b8f71;
 }
 
 h3 {
@@ -16,13 +17,26 @@ h3 {
     font-family: Nunito, sans-serif;
 }
 
+#minhaFoto {
+    border-radius: 2000%;
+    position: absolute;
+    left: 900px;
+    top: 300px;
+    
+}
+
 .button {
-    background-color: #11a36a;
+    background-color: #6b8f71;
     border-radius: 4px;
-    color: #fff;
+    color: #d9fff5;
     text-transform: none;
     padding: 0.2% 3%;
-    
+}
+.button:hover {
+    background-color: #aad2ba;
+}
+.button:active{
+    color: #1d1e18;
 }
 
 #Maior {
